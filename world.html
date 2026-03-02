@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>World Continents</title>
+    <style>
+        body {
+            line-height: 16px;
+        }
+
+        .head {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            cursor: pointer;
+        }
+
+        .head-link {
+            text-decoration: none;
+        }
+
+        .head-link:hover {
+            color: green;
+            cursor: pointer;
+        }
+
+        .main,
+        .footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .about {
+            width: 1000px;
+        }
+
+        .link {
+            text-decoration: none;
+            color: red;
+            font-size: 25px;
+        }
+
+        .link:hover {
+            color: rgb(9, 176, 37);
+        }
+
+        .marquee {
+            font-size: 20px;
+        }
+
+        .world {
+            height: 900px;
+            margin-top: -50px;
+            margin-bottom: -60px;
+        }
+
+        .line {
+            margin-top: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <h1 class="head"><a class="head-link" href="https://en.wikipedia.org/wiki/World" target="_blank">THE WORLD</a>
+        </h1>
+        <hr style="height:2px; border:none; background-color:rgb(33, 236, 155); width:100%;">
+        <p class="about">
+            The world is divided into several continents.
+            The seven continents of the world, defined as large, distinct landmasses, are Asia, Africa, North America,
+            South America, Antarctica, Europe, and Australia. Ranging from largest to smallest by area, they are: Asia,
+            Africa, North America, South America, Antarctica, Europe, and Australia
+            Click on any continent below to learn more:
+        </p>
+        <div>
+            <br><br>
+            <a class="link" href="europe.html" target="_blank">Europe</a> |
+            <a class="link" href="America.html" target="_blank">America</a> |
+            <a class="link" href="Africa.html" target="_blank">Africa</a> |
+            <a class="link" href="Asia.html" target="_blank">Asia</a> |
+            <a class="link" href="auastralia.html" target="_blank">Australia</a>
+        </div>
+        <marquee class="marquee" behavior="scroll" direction="left" scrollamount="5">
+         <p>the seven continents of the world as shown below</p>
+        </marquee>
+        <div>
+            <img class="world" src="WO_Intermediate_Flags_L.jpg">
+        </div>
+        <hr class="line" style="height:2px; border:none; background-color:rgb(207, 19, 132); width:100%;">
+
+        <p class="footer">
+            © Copyright All Rights Reserved. 2026 Hd Creations.
+        </p>
+
+    </div>
+</body>
+
+</html>
